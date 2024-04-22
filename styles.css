@@ -192,7 +192,8 @@ footer {
 
 .menu-html:hover{
     border-top: 3px solid white;
-    background-color: rgb(75, 74, 73);
+    background-color: #34495e;
+    
 }
 
 nav li:hover a {
@@ -238,6 +239,8 @@ nav li:hover a {
 }
 
 img, video {
-    max-width: 100%;
+    max-width: auto;
     height: auto;
 }
+
+
