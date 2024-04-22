@@ -223,7 +223,7 @@ nav li:hover a {
 /* Styles pour téléphones mobiles */
 @media (max-width: 480px) {
     .logo-cned img {
-        width: 10%; /* Réduit la taille du logo */
+        width: 20%; /* Réduit la taille du logo */
         height: auto; /* Maintient le ratio d'aspect */
         position: relative; /* Assure que le logo ne chevauche pas d'autres éléments */
         left: 0; /* Réinitialise les ajustements de positionnement */
