@@ -222,21 +222,37 @@ nav li:hover a {
 
 /* Styles pour téléphones mobiles */
 @media (max-width: 480px) {
+    .logo-cned img {
+        width: 50%; /* Réduit la taille du logo */
+        height: auto; /* Maintient le ratio d'aspect */
+        position: relative; /* Assure que le logo ne chevauche pas d'autres éléments */
+        left: 0; /* Réinitialise les ajustements de positionnement */
+        top: 0;
+        margin-top: 10px; /* Ajoute un peu d'espace au-dessus du logo */
+    }
+
+    header {
+        padding-top: 60px; /* Ajoute de l'espace au-dessus du contenu de l'en-tête pour éviter que le logo ne chevauche le menu */
+    }
+
+    nav {
+        position: relative; /* Change la position pour éviter le chevauchement */
+        top: 0;
+        right: 0;
+        margin-top: 20px; /* Ajuste l'espacement au-dessus du menu */
+    }
+
     nav ul {
         flex-direction: column;
-        padding: 0;
+        align-items: center; /* Centre les éléments de la liste */
     }
+
     nav ul li {
-        text-align: center;
-        margin-bottom: 10px;
-    }
-    .skills-grid {
-        grid-template-columns: 1fr; /* Affiche les compétences en une seule colonne */
-    }
-    .logo img {
-        margin-left: auto; /* Centre les logos */
+        display: block; /* Affiche chaque élément de la liste sur une nouvelle ligne */
+        margin: 5px 0; /* Réduit l'espacement entre les éléments du menu */
     }
 }
+
 
 img, video {
     max-width: auto;
