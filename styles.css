@@ -117,7 +117,7 @@ footer {
 
 .titre{
     
-    text-align: center;/* nouveauté */
+    text-align: auto;/* nouveauté */
     font-size: 50px;
     font-family: bold;
     font-weight: bold;
@@ -158,36 +158,44 @@ footer {
 }
 
 .dropdown:hover .dropbtn {
-    background-color: #34495e;
+    background-color: hsl(210, 29%, 29%);
 }
 
+
+
+.contact{
+    display: flex;
+    flex-direction: row;  
+    position: relative;
+    left: auto;
+    top: auto;
+
+}
 .logo img{
-    width: 40%;
-    height: 100px;   
-    display: block; /* nouveauté */
-    margin-left: 135%;
-    margin-right: auto;      
+    width: 60px;
+    height: 50px;
 }
-
 .logo{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 20px;
-}
-
-#contact{
-    text-align: center;/* nouveauté */
+    display: block;
+    margin-left: 140px;
+    margin-right: auto;
     
 }
+.lien-logo{
+    display: block;
+    margin-left: 136px;
+    margin-right: auto;
+}
+
 
 .logo-cned{
     position: absolute;
     top: 20px;
-    left: 10px;
+    left: 15px;
 }
 .logo-cned img{
-    width: 80%;
-    height: 50px;
+    width: 90%;
+    height: 70px;
 }
 
 .menu-html:hover{
@@ -199,6 +207,12 @@ footer {
 nav li:hover a {
     padding: 15px 30px 20px 30px;
 }
+
+
+
+
+
+
 
 /* Styles de base pour les écrans plus larges (desktops) */
 .container {
