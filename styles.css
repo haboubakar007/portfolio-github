@@ -46,8 +46,10 @@ nav ul {
 
 nav ul li {
     display: inline;
-    margin: 0 10px;
+    margin: 0 5px;
     text-decoration: none;
+    position: relative;
+    top: 0;
 }
 
 nav a {
@@ -208,7 +210,6 @@ nav li:hover a {
     padding: 15px 30px 20px 30px;
 }
 .lien-politique{
-    text-decoration: underline;
     color: white;
 }
 
