@@ -266,6 +266,15 @@ nav li:hover a {
         display: block; /* Affiche chaque élément de la liste sur une nouvelle ligne */
         margin: 5px 0; /* Réduit l'espacement entre les éléments du menu */
     }
+    .logo-cned{
+        position: absolute;
+        top: 20px;
+        left: 15px;
+    }
+    .logo-cned img{
+        width: 10%;
+        height: 20px;
+    }
 }
 
 
